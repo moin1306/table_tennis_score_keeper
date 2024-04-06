@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  #scores {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #Use {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  button,
+  select {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover,
+  select:hover {
+    background-color: #747171;
+  }
+  
+  select {
+    background-color: #fff;
+    color: #141414;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  .winner{
+    color:green;
+  }
+
+  .looser{
+    color:red;
+  }
