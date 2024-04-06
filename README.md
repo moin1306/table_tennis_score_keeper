@@ -1,0 +1,2 @@
+# score_keeper
+ This JavaScript project tracks and displays scores for two teams, increasing their score upon a goal. If either team reaches the winning goal count, their score is highlighted in green, indicating the end of the game. It offers simple functionality to display current scores, increment scores upon goals, and determine the winning team. Users can reset the scores meanwhile if needed .
